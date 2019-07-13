@@ -34,13 +34,13 @@ php artisan migrate
 
 Para alterar as entradas que esse modelo terá no banco de dados, vá ate:
 
-````
+```
 ./database/migrations
-````
+```
 
 E altere a função up():
 
-````php
+```php
 public function up()
 {
 	Schema::create('salves', function (Blueprint $table) {
@@ -48,5 +48,12 @@ public function up()
 	$table->timestamps();
 	});
 }
-````
+```
+
+**😁 Outros comandos úteis**
+
+```
+php artisan migrate:refresh
+php artisan migrate:rollback
+```
 

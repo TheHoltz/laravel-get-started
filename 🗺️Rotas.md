@@ -22,7 +22,7 @@ Route::get('/rota', function () {
 });
 ```
 
-Outros métodos mais complexo é importar todas as rotas de um controlador, cujo irá definir novas rotas baseando nas funções do controlador.
+Outro método mais complexo é importar todas as rotas de um controlador, cujo irá definir novas rotas baseando nas funções do controlador.
 
 ```php
 Route::resource('nomeDaRota','controlador');

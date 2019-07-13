@@ -23,7 +23,7 @@ DB_PASSWORD=
 
 **➕ Criando novos modelos**
 
-Para criar um novo modelo é possível através do comando, cujo irá tambem criar uma interface de migração do banco de dados.
+Para criar um novo modelo é possível através do comando a seguir, cujo irá tambem criar uma interface de migração do banco de dados em função do parâmetro `-m`.
 
 ```
 php artisan make:model nome -m
